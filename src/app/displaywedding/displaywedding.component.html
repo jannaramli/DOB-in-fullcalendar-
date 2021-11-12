@@ -1,0 +1,61 @@
+<body class="bg-light">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+       
+        <div class="col-md-10 mt-5 pt-5">
+          <div class="row z-depth-3">
+            <div class="col-sm-4 rounded-left">
+              <div class="card-block text-center text-white">
+                  <br><br><br>
+                  <div class="watermark">
+                    <img class="imageClass" [src]="displayGamba">
+                  </div>
+                  <p class="font-weight-bold mt-4">Gambar IC Pemohon</p>
+              </div>
+            </div>
+            
+            <div class="col-sm-8 bg-white rounded-right">
+              <div class="hea">
+              <p class="mt-3 text-center font-weight-bold">PENDAFTARAN BERJAYA</p>
+              <p class="mt-3 text-center">Berikut adalah maklumat pemohon</p></div>
+              <br class="bg-primary mt-3 w-25">
+              <div class="row">
+                
+                <div class="col-sm-6">
+                <p class="font-weight-bold">Nama Pemohon:</p>
+                <p class="text-muted">{{headItem.name}}</p> <!--refer properties of the template's context mcm input variable or a reference variable.-->
+                </div>
+                <div class="col-sm-6">
+                <p class="font-weight-bold">Alamat Penuh Nikah:</p>
+                <p class="text-muted">{{headItem.alamat}} {{headItem.alamat2}} {{headItem.bandar}} {{headItem.poskod}} {{headItem.negeri}}</p>
+               </div>
+                <div class="col-sm-6">
+                <p class="font-weight-bold">No Kad Pengenalan:</p>
+                <p class="text-muted">{{headItem.kad}}</p>
+              </div>
+              <div class="col-sm-6">
+                <p class="font-weight-bold">Tarikh Lahir:</p>
+                <p class="text-muted">{{headItem.dob}}</p>
+              </div>
+        
+              
+              <br><br><br>
+              <div class="d-grid gap-1 d-md-flex justify-content-md-end"> 
+                <button mat-raised-button color="primary" type="button" routerLink="/register">DAFTAR BARU</button>
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
+
+
+

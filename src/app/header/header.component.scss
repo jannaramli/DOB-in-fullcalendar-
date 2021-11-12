@@ -1,0 +1,41 @@
+img {
+    opacity: 0.8;
+  }
+
+  h4 {
+    color: rgb(0, 0, 0);
+  }
+
+  .input-group-text{
+    font-size: 14px;
+  }
+  .form-control{
+    font-size: 14px;
+  }
+  .form-select{
+    font-size: 14px;
+  }
+
+
+  .form {
+			width: 40%;
+			background: linear-gradient(to top left, #6accec 0%, #ff99cc 100%);
+			margin: 0px auto;
+      //margin-right: 100px;
+			padding: 20px;
+			box-shadow: 1px 1px 2px rgba(189, 184, 184, 0.125);
+  }
+
+  video {
+  max-width: 100%;
+   margin-bottom: 2px;
+   margin-top: 35px;   
+}
+
+.col {
+color: red;
+}
+
+.form-label{
+  font-size: 13px;
+}

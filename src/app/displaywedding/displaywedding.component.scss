@@ -1,0 +1,27 @@
+.imageClass{
+        width: 280px;
+        height: 150px;
+   }
+
+.hea{
+        background-color: rgb(224, 222, 222);
+}
+
+.watermark img { width: 100%; height: 180px; }
+
+      .watermark {
+        position: relative;
+        
+      }
+      .watermark::after {
+        content: 'SULIT DAN PERSENDIRIAN';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        opacity: 0.5;
+        font-size: 1em;
+      } 
+
+.col-sm-4{
+  background: linear-gradient(to top left, #6accec 0%, #ff99cc 100%);
+}
